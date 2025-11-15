@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+Fitness Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app for tracking calories, weight, and daily progress. Built using React Native and Expo with a clean, modern UI and persistent local storage.
 
-## Get started
+Features
 
-1. Install dependencies
+- Track daily calories
 
-   ```bash
-   npm install
-   ```
+- Log weight and monitor progress over time
 
-2. Start the app
+- View simple trends for weight and calorie changes
 
-   ```bash
-   npx expo start
-   ```
+- Persistent local storage using AsyncStorage
 
-In the output, you'll find options to open the app in a
+- Multi-screen navigation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Clean, modern UI with modular components
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Ability to edit and delete entries
 
-## Get a fresh project
+Tech Stack
 
-When you're ready, run:
+- React Native (Expo)
 
-```bash
-npm run reset-project
-```
+- TypeScript
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Navigation
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Project Structure
 
-## Join the community
 
-Join our community of developers creating universal apps.
+Installation
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Clone the repository:
+
+git clone https://github.com/anrricx/fitness-tracker-app.git
+
+Change into the project directory:
+
+cd fitness-tracker-app
+
+Install dependencies:
+
+npm install
+
+Start the app:
+
+npx expo start
+
+You can then open the app in an iOS simulator, Android emulator, or with the Expo Go app on your phone.
+
+Screenshots
+
+
+
+Suggested paths:
+
+assets/screenshots/home.png
+assets/screenshots/add_entry.png
+assets/screenshots/progress.png
+
+What I Learned
+
+- How to build a functional mobile app with React Native and Expo
+
+- How to manage local data using AsyncStorage
+
+- How to structure a multi-screen mobile app
+
+- How to design and organize reusable UI components
+
+
+Future Improvements
+
+- Add user authentication
+
+- Add cloud sync using a backend service (Firebase or Supabase)
+
+- Improve analytics and data visualization
