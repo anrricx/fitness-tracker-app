@@ -1,81 +1,65 @@
-Fitness Tracker App
+# Fitness Tracker App
 
 A mobile app for tracking calories, weight, and daily progress. Built using React Native and Expo with a clean, modern UI and persistent local storage.
 
-Features
+## Screenshots
 
-- Track daily calories
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ff73676-2d05-4c03-a246-1ff14694dee2" width="250">
+  <img src="https://github.com/user-attachments/assets/b544517b-bd1c-4962-9178-782e84cefbdd" width="250">
+  <img src="https://github.com/user-attachments/assets/ec32ba23-4abb-47d8-8541-a0473c575331" width="250">
+  <img src="https://github.com/user-attachments/assets/21a63304-d97e-4706-9f4d-05455b81f0c3" width="250">
+</p>
 
-- Log weight and monitor progress over time
+## Features
 
-- View simple trends for weight and calorie changes
+- Track daily calories  
+- Log weight and monitor progress over time  
+- View simple trends for weight and calorie changes  
+- Persistent local storage using AsyncStorage  
+- Multi-screen navigation  
+- Clean, modern UI with modular components  
+- Add, edit, and delete entries  
 
-- Persistent local storage using AsyncStorage
+## Tech Stack
 
-- Multi-screen navigation
+- React Native (Expo)  
+- TypeScript  
+- React Navigation  
+- AsyncStorage  
 
-- Clean, modern UI with modular components
-
-- Ability to edit and delete entries
-
-Tech Stack
-
-- React Native (Expo)
-
-- TypeScript
-
-- React Navigation
-
-
-
-Project Structure
-
-
-Installation
+## Installation
 
 Clone the repository:
-
 git clone https://github.com/anrricx/fitness-tracker-app.git
 
-Change into the project directory:
 
 cd fitness-tracker-app
 
+
 Install dependencies:
+
+
 
 npm install
 
+
 Start the app:
+
+
 
 npx expo start
 
-You can then open the app in an iOS simulator, Android emulator, or with the Expo Go app on your phone.
 
-Screenshots
+## What I Learned
 
+- How to build a functional mobile app using React Native and Expo  
+- How to manage persistent data using AsyncStorage  
+- How to structure a multi-screen mobile app  
+- How to design and organize reusable UI components  
 
+## Future Improvements
 
-Suggested paths:
-
-assets/screenshots/home.png
-assets/screenshots/add_entry.png
-assets/screenshots/progress.png
-
-What I Learned
-
-- How to build a functional mobile app with React Native and Expo
-
-- How to manage local data using AsyncStorage
-
-- How to structure a multi-screen mobile app
-
-- How to design and organize reusable UI components
-
-
-Future Improvements
-
-- Add user authentication
-
-- Add cloud sync using a backend service (Firebase or Supabase)
-
-- Improve analytics and data visualization
+- Add user authentication  
+- Add cloud sync (Firebase or Supabase)  
+- Improve analytics and charts  
